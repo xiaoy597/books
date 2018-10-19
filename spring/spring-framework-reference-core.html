@@ -433,7 +433,7 @@
         </div>
         <div id="toc" class="toc2">
             <div id="toctitle">Table of Contents</div>
-            <p><a href="../spring-framework-reference/index.html"><i
+            <p><a href="spring-framework-reference-index.html"><i
                         class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Back to index</a></p>
             <div id="tocbot" class="js-toc">
                 <ul class="toc-list ">
@@ -1538,7 +1538,7 @@
                         Introduction to the Spring IoC Container and Beans</h3>
                     <div class="paragraph">
                         <p>This chapter covers the Spring Framework implementation of the Inversion of Control
-                            (IoC) principle. (See <a href="../spring-framework-reference/overview.html#background-ioc">Inversion
+                            (IoC) principle. (See <a href="../spring-framework/overview.html#background-ioc">Inversion
                                 of Control</a>.) IoC
                             is also known as dependency injection (DI). It is a process whereby objects define
                             their dependencies (that is, the other objects they work with) only through constructor
@@ -3138,7 +3138,7 @@ context.refresh();</code></pre>
                                             injection is that
                                             setter methods make objects of that class amenable to reconfiguration or
                                             re-injection
-                                            later. Management through <a href="../spring-framework-reference/integration.html#jmx">JMX
+                                            later. Management through <a href="../spring-framework/integration.html#jmx">JMX
                                                 MBeans</a> is therefore a compelling
                                             use case for setter injection.</p>
                                     </div>
@@ -5227,7 +5227,7 @@ Str</code></pre>
                             </tr>
                             <tr>
                                 <td class="tableblock halign-left valign-top">
-                                    <p class="tableblock"><a href="../spring-framework-reference/web.html#websocket-stomp-websocket-scope">websocket</a></p>
+                                    <p class="tableblock"><a href="../spring-framework/web.html#websocket-stomp-websocket-scope">websocket</a></p>
                                 </td>
                                 <td class="tableblock halign-left valign-top">
                                     <p class="tableblock">Scopes a single bean definition to the lifecycle of a <code>WebSocket</code>.
@@ -7052,7 +7052,7 @@ beanFactory.registerScope(<span class="string"><span class="delimiter">"</span><
                                             JCA aware <code>ApplicationContext</code> instances.</p>
                                     </td>
                                     <td class="tableblock halign-left valign-top">
-                                        <p class="tableblock"><a href="../spring-framework-reference/integration.html#cci">JCA
+                                        <p class="tableblock"><a href="../spring-framework/integration.html#cci">JCA
                                                 CCI</a></p>
                                     </td>
                                 </tr>
@@ -7091,7 +7091,7 @@ beanFactory.registerScope(<span class="string"><span class="delimiter">"</span><
                                         <p class="tableblock">Spring JMX notification publisher.</p>
                                     </td>
                                     <td class="tableblock halign-left valign-top">
-                                        <p class="tableblock"><a href="../spring-framework-reference/integration.html#jmx-notifications">Notifications</a></p>
+                                        <p class="tableblock"><a href="../spring-framework/integration.html#jmx-notifications">Notifications</a></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -7115,7 +7115,7 @@ beanFactory.registerScope(<span class="string"><span class="delimiter">"</span><
                                             <code>ApplicationContext</code>.</p>
                                     </td>
                                     <td class="tableblock halign-left valign-top">
-                                        <p class="tableblock"><a href="../spring-framework-reference/web.html#mvc">Spring
+                                        <p class="tableblock"><a href="../spring-framework/web.html#mvc">Spring
                                                 MVC</a></p>
                                     </td>
                                 </tr>
@@ -7129,7 +7129,7 @@ beanFactory.registerScope(<span class="string"><span class="delimiter">"</span><
                                             <code>ApplicationContext</code>.</p>
                                     </td>
                                     <td class="tableblock halign-left valign-top">
-                                        <p class="tableblock"><a href="../spring-framework-reference/web.html#mvc">Spring
+                                        <p class="tableblock"><a href="../spring-framework/web.html#mvc">Spring
                                                 MVC</a></p>
                                     </td>
                                 </tr>
@@ -7559,7 +7559,7 @@ eligible for auto-proxying)</code>.</p>
                                     other bean. (The preceding configuration also defines a bean that is backed by a
                                     Groovy
                                     script. The Spring dynamic language support is detailed in the chapter entitled
-                                    <a href="../spring-framework-reference/languages.html#dynamic-language">Dynamic
+                                    <a href="../spring-framework/languages.html#dynamic-language">Dynamic
                                         Language Support</a>.)</p>
                             </div>
                             <div class="paragraph">
@@ -8188,7 +8188,7 @@ dataSource.url=jdbc:mysql:mydb</pre>
                                         for a <code>DispatcherServlet</code>,
                                         it only checks for <code>@Autowired</code> beans in your controllers, and not
                                         your services. See
-                                        <a href="../spring-framework-reference/web.html#mvc-servlet">The
+                                        <a href="../spring-framework/web.html#mvc-servlet">The
                                             DispatcherServlet</a> for more information.
                                     </td>
                                 </tr>
@@ -9654,7 +9654,7 @@ dataSource.url=jdbc:mysql:mydb</pre>
                                 or
                                 stereotype of a repository (also known as Data Access Object or DAO). Among the uses
                                 of this marker is the automatic translation of exceptions, as described in
-                                <a href="../spring-framework-reference/data-access.html#orm-exception-translation">Exception
+                                <a href="../spring-framework/data-access.html#orm-exception-translation">Exception
                                     Translation</a>.</p>
                         </div>
                         <div class="paragraph">
@@ -13632,7 +13632,7 @@ ctx.refresh();</code></pre>
                                         Abstraction</a>). In integration tests, active
                                     profiles can be declared by using the <code>@ActiveProfiles</code> annotation in
                                     the <code>spring-test</code> module
-                                    (see <a href="../spring-framework-reference/testing.html#testcontext-ctx-management-env-profiles">Context
+                                    (see <a href="../spring-framework/testing.html#testcontext-ctx-management-env-profiles">Context
                                         configuration with environment profiles</a>).</p>
                             </div>
                             <div class="paragraph">
@@ -14021,7 +14021,7 @@ sources.addFirst(<span class="keyword">new</span> MyPropertySource());</code></p
                             may implement <code>LoadTimeWeaverAware</code>, thereby receiving a reference to the
                             load-time
                             weaver instance. This is particularly useful in combination with
-                            <a href="../spring-framework-reference/data-access.html#orm-jpa">Spring’s
+                            <a href="../spring-framework/data-access.html#orm-jpa">Spring’s
                                 JPA support</a> where load-time weaving may be necessary
                             for JPA class transformation.
                             Consult the <a href="https://docs.spring.io/spring-framework/docs/5.1.1.RELEASE/javadoc-api/org/springframework/orm/jpa/LocalContainerEntityManagerFactoryBean.html"><code>LocalContainerEntityManagerFactoryBean</code>
@@ -14885,7 +14885,7 @@ argument.required=Ebagum lad, the {0} argument is required, I say, required.</pr
                             <div class="paragraph">
                                 <p>If you want a particular listener to process events asynchronously, you can reuse
                                     the
-                                    <a href="../spring-framework-reference/integration.html#scheduling-annotation-support-async">regular
+                                    <a href="../spring-framework/integration.html#scheduling-annotation-support-async">regular
                                         <code>@Async</code> support</a>. The
                                     following example shows how to do so:</p>
                             </div>
@@ -17517,7 +17517,7 @@ company.setPropertyValue(<span class="string"><span class="delimiter">"</span><s
                                 <div class="paragraph">
                                     <p>Finally (and in a bit of a departure from the focus of this chapter for those of
                                         you
-                                        using <a href="../spring-framework-reference/web.html#mvc">Spring’s
+                                        using <a href="../spring-framework/web.html#mvc">Spring’s
                                             MVC web framework</a>), using <code>PropertyEditorRegistrars</code> in
                                         conjunction with data-binding <code>Controllers</code> (such as <code>SimpleFormController</code>)
                                         can be very
@@ -17924,7 +17924,7 @@ TypeDescriptor)</code> to contain your conversion logic. The source <code>TypeDe
                         <div class="paragraph">
                             <p>It is also common to use a <code>ConversionService</code> within a Spring MVC
                                 application. See
-                                <a href="../spring-framework-reference/web.html#mvc-config-conversion">Conversion
+                                <a href="../spring-framework/web.html#mvc-config-conversion">Conversion
                                     and Formatting</a> in the Spring MVC chapter.</p>
                         </div>
                         <div class="paragraph">
@@ -18392,7 +18392,7 @@ cs.convert(input,
                         <h4 id="format-configuring-formatting-mvc"><a class="anchor" href="spring-framework-reference-core.html#format-configuring-formatting-mvc"></a>3.5.5.
                             Configuring Formatting in Spring MVC</h4>
                         <div class="paragraph">
-                            <p>See <a href="../spring-framework-reference/web.html#mvc-config-conversion">Conversion
+                            <p>See <a href="../spring-framework/web.html#mvc-config-conversion">Conversion
                                     and Formatting</a> in the Spring MVC chapter.</p>
                         </div>
                     </div>
@@ -18524,7 +18524,7 @@ cs.convert(input,
                                         method.
                                         For XML, you should use the <code>conversion-service</code> attribute of the
                                         <code>mvc:annotation-driven</code> element.
-                                        See <a href="../spring-framework-reference/web.html#mvc-config-conversion">Conversion
+                                        See <a href="../spring-framework/web.html#mvc-config-conversion">Conversion
                                             and Formatting</a> for details.
                                     </td>
                                 </tr>
@@ -18840,7 +18840,7 @@ BindingResult results = binder.getBindingResult();</code></pre>
                         <h4 id="validation-mvc"><a class="anchor" href="spring-framework-reference-core.html#validation-mvc"></a>3.7.4.
                             Spring MVC 3 Validation</h4>
                         <div class="paragraph">
-                            <p>See <a href="../spring-framework-reference/web.html#mvc-config-validation">Validation</a>
+                            <p>See <a href="../spring-framework/web.html#mvc-config-validation">Validation</a>
                                 in the Spring MVC chapter.</p>
                         </div>
                     </div>
@@ -21906,7 +21906,7 @@ city = parser.parseExpression(<span class="string"><span class="delimiter">"</sp
                                 <p>The <code>&lt;aop:config&gt;</code> and <code>&lt;aop:advisor&gt;</code> elements
                                     are discussed in <a href="spring-framework-reference-core.html#aop-schema">Schema-based
                                         AOP Support</a>. The
-                                    transaction elements are discussed in <a href="../spring-framework-reference/data-access.html#transaction">Transaction
+                                    transaction elements are discussed in <a href="../spring-framework/data-access.html#transaction">Transaction
                                         Management</a>.</p>
                             </div>
                         </div>
@@ -28816,7 +28816,7 @@ assertEquals(<span class="string"><span class="delimiter">"</span><span class="c
                         <p>They are also used to make Spring API null-safe in Kotlin projects, since Kotlin natively
                             supports <a href="https://kotlinlang.org/docs/reference/null-safety.html">null-safety</a>.
                             More details
-                            are available in the <a href="../spring-framework-reference/languages.html#kotlin-null-safety">Kotlin
+                            are available in the <a href="../spring-framework/languages.html#kotlin-null-safety">Kotlin
                                 support documentation</a>.</p>
                     </div>
                 </div>
@@ -29108,7 +29108,7 @@ DataBuffer buffer = factory.allocateBuffer(); <i class="conum" data-value="1"></
                             You can
                             change them by overriding the <code>configureHttpMessageCodecs</code> when you inherit from
                             that class.
-                            For more information about using codecs in WebFlux, see <a href="../spring-framework-reference/web-reactive.html#webflux-codecs">[web-reactive#webflux-codecs]</a>.</p>
+                            For more information about using codecs in WebFlux, see <a href="../spring-framework/web-reactive.html#webflux-codecs">[web-reactive#webflux-codecs]</a>.</p>
                     </div>
                 </div>
             </div>
@@ -29889,9 +29889,9 @@ DataBuffer buffer = factory.allocateBuffer(); <i class="conum" data-value="1"></
                                             </td>
                                             <td class="content">
                                                 This element does not activate processing of Spring’s
-                                                <a href="../spring-framework-reference/data-access.html#transaction-declarative-annotations"><code>@Transactional</code></a>
+                                                <a href="../spring-framework/data-access.html#transaction-declarative-annotations"><code>@Transactional</code></a>
                                                 annotation. You can use the
-                                                <a href="../spring-framework-reference/data-access.html#tx-decl-explained"><code>&lt;tx:annotation-driven/&gt;</code></a>
+                                                <a href="../spring-framework/data-access.html#tx-decl-explained"><code>&lt;tx:annotation-driven/&gt;</code></a>
                                                 element for that purpose.
                                             </td>
                                         </tr>
@@ -29927,7 +29927,7 @@ DataBuffer buffer = factory.allocateBuffer(); <i class="conum" data-value="1"></
                             <h5 id="xsd-schemas-context-mbe"><a class="anchor" href="spring-framework-reference-core.html#xsd-schemas-context-mbe"></a>Using
                                 <code>&lt;mbean-export/&gt;</code></h5>
                             <div class="paragraph">
-                                <p>This element is detailed in <a href="../spring-framework-reference/integration.html#jmx-context-mbeanexport">Configuring
+                                <p>This element is detailed in <a href="../spring-framework/integration.html#jmx-context-mbeanexport">Configuring
                                         annotation based MBean export</a>.</p>
                             </div>
                         </div>
@@ -30965,7 +30965,7 @@ http\://www.foo.com/schema/jcache/jcache.xsd=com/foo/jcache.xsd</pre>
     </div>
     <!-- <script async="" src="./Core Technologies_files/analytics.js.download"></script>
     <script src="./Core Technologies_files/tocbot.js.download"></script>
-    <script>var oldtoc = document.getElementById('toctitle').nextElementSibling; var newtoc = document.createElement('div'); newtoc.setAttribute('id', 'tocbot'); newtoc.setAttribute('class', 'js-toc'); oldtoc.parentNode.replaceChild(newtoc, oldtoc); tocbot.init({ contentSelector: '#content', headingSelector: 'h1, h2, h3, h4, h5', smoothScroll: false }); var handleTocOnResize = function () { var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; if (width < 768) { tocbot.refresh({ contentSelector: '#content', headingSelector: 'h1, h2, h3, h4, h5', collapseDepth: 6, activeLinkClass: 'ignoreactive', throttleTimeout: 1000, smoothScroll: false }); } else { tocbot.refresh({ contentSelector: '#content', headingSelector: 'h1, h2, h3, h4, h5', smoothScroll: false }); } }; window.addEventListener('resize', handleTocOnResize); handleTocOnResize(); var link = document.createElement("a"); link.setAttribute("href", "index.html"); link.innerHTML = "<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>&nbsp;&nbsp;Back to index"; var p = document.createElement("p"); p.appendChild(link); var toc = document.getElementById('toc')
+    <script>var oldtoc = document.getElementById('toctitle').nextElementSibling; var newtoc = document.createElement('div'); newtoc.setAttribute('id', 'tocbot'); newtoc.setAttribute('class', 'js-toc'); oldtoc.parentNode.replaceChild(newtoc, oldtoc); tocbot.init({ contentSelector: '#content', headingSelector: 'h1, h2, h3, h4, h5', smoothScroll: false }); var handleTocOnResize = function () { var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; if (width < 768) { tocbot.refresh({ contentSelector: '#content', headingSelector: 'h1, h2, h3, h4, h5', collapseDepth: 6, activeLinkClass: 'ignoreactive', throttleTimeout: 1000, smoothScroll: false }); } else { tocbot.refresh({ contentSelector: '#content', headingSelector: 'h1, h2, h3, h4, h5', smoothScroll: false }); } }; window.addEventListener('resize', handleTocOnResize); handleTocOnResize(); var link = document.createElement("a"); link.setAttribute("href", "spring-framework-reference-index.html"); link.innerHTML = "<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>&nbsp;&nbsp;Back to index"; var p = document.createElement("p"); p.appendChild(link); var toc = document.getElementById('toc')
         var next = document.getElementById('toctitle').nextElementSibling; toc.insertBefore(p, next);</script>
     <script>if (window.parent == window) { (function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga'); ga('create', 'UA-2728886-23', 'auto', { 'siteSpeedSampleRate': 100 }); ga('send', 'pageview'); }</script> -->
 </body>

@@ -347,8 +347,8 @@ svg {
 p.lead,
 .paragraph.lead>p,
 #preamble>.sectionbody>.paragraph:first-of-type p {
-    font-size: 1.21875em;
-    line-height: 1.6
+    font-size: 1.11875em;
+    line-height: 1.2;
 }
 
 .subheader,
@@ -422,7 +422,7 @@ p {
     font-family: inherit;
     /* font-weight: 400; */
     font-size: 1em;
-    margin-bottom: 1.25em;
+    margin-bottom: 0.6em;
     /* text-rendering: optimizeLegibility */
 }
 
@@ -446,7 +446,7 @@ h6 {
     /* color: #34302d; */
     text-rendering: optimizeLegibility;
     margin-top: 1em;
-    margin-bottom: .5em;
+    margin-bottom: .3em;
     line-height: 1.0125em
 }
 
@@ -468,13 +468,13 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6875em
+    font-size: 1.4em
 }
 
 h3,
 #toctitle,
 .sidebarblock>.content>.title {
-    font-size: 1.375em
+    font-size: 1.2em
 }
 
 h4 {
@@ -696,7 +696,7 @@ table thead tr th,
 table thead tr td,
 table tfoot tr th,
 table tfoot tr td {
-    padding: .5em .625em .625em;
+    padding: .2em .225em .225em;
     font-size: inherit;
     /* color: #34302d; */
     text-align: left
@@ -1255,7 +1255,7 @@ table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p {
     border-style: solid;
     border-width: 1px;
     border-color: #e6e6e6;
-    margin-bottom: 1.25em;
+    margin-bottom: 0.5em;
     /* padding: 1.25em; */
     background: #fff;
     -webkit-border-radius: 4px;
@@ -2202,7 +2202,7 @@ b.conum * {
 }
 
 .admonitionblock>table {
-    margin-bottom: 0
+    margin-bottom: 0.5em
 }
 
 .admonitionblock>table td.content {
