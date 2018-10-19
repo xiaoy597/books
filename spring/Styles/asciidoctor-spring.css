@@ -1,5 +1,5 @@
 /* @import "https://fonts.googleapis.com/css?family=Varela+Round|Montserrat:400,700"; */
-/*!normalize.css v2.1.2 | MIT License | git.io/normalize*/
+/*!normalize.Styles v2.1.2 | MIT License | git.io/normalize*/
 
 article,
 aside,
@@ -347,8 +347,7 @@ svg {
 p.lead,
 .paragraph.lead>p,
 #preamble>.sectionbody>.paragraph:first-of-type p {
-    font-size: 1.11875em;
-    line-height: 1.2;
+    font-size: 1.05em;
 }
 
 .subheader,
